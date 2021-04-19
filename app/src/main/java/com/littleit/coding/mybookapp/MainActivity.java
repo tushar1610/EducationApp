@@ -1,7 +1,9 @@
 package com.littleit.coding.mybookapp;
 
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
@@ -63,8 +65,25 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
-        if (id==R.id.menu_share){
-            Toast.makeText(MainActivity.this,"Share Clicked",Toast.LENGTH_SHORT).show();
+        if (id==R.id.menu_quiz){
+            AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this);
+            builder.setMessage("Read all chapters carefully before taking quiz.");
+            builder.setTitle("Take quiz?");
+            builder.setPositiveButton("Start Quiz", new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialogInterface, int i) {
+                    Intent intent = new Intent(MainActivity.this, QuizMainActivity.class );
+                    startActivity(intent);
+                }
+            });
+            builder.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
+                @Override
+                public void onClick(DialogInterface dialogInterface, int i) {
+
+                }
+            });
+            AlertDialog dialog = builder.create();
+            dialog.show();
         }
         if (id==R.id.menu_about){
             Toast.makeText(MainActivity.this,"About Clicked",Toast.LENGTH_SHORT).show();

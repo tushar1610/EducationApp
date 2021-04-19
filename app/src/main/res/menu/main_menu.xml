@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
-    <item android:title="share"
-        android:id="@+id/menu_share"/>
-    <item android:title="about"
+    <item android:title="Quiz"
+        android:id="@+id/menu_quiz"/>
+    <item android:title="About"
         android:id="@+id/menu_about"/>
-    <item android:title="exit"
+    <item android:title="Exit"
         android:id="@+id/menu_exit"/>
 </menu>
