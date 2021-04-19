@@ -21,6 +21,6 @@
         android:layout_centerHorizontal="true"
         android:textSize="20sp"
         android:textStyle="bold"
-        android:text="MY BOOK"/>
+        android:text="GET SET LEARN"/>
 
 </RelativeLayout>
