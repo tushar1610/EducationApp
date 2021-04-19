@@ -9,22 +9,24 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name="com.example.android.lerno.CheatActivity"
+        <activity
+            android:name=".CheatActivity"
             android:label="Cheat"
-            android:parentActivityName="com.example.android.lerno.QuizMainActivity">
+            android:parentActivityName=".QuizMainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.android.lerno.QuizMainActivity" />
         </activity>
-        <activity android:name="com.example.android.lerno.QuizMainActivity"
+        <activity
+            android:name=".QuizMainActivity"
             android:label="Quiz"
-            android:parentActivityName="com.example.android.lerno.MainActivity">
+            android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.example.android.lerno.MainActivity" />
         </activity>
         <activity
-            android:name="com.example.android.lerno.SplashActivity"
+            android:name=".SplashActivity"
             android:theme="@style/AppThemeNoActionbar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -32,8 +34,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.android.lerno.DetailActivity" />
-        <activity android:name="com.example.android.lerno.MainActivity" />
+        <activity android:name=".DetailActivity" />
+        <activity android:name=".MainActivity" />
     </application>
 
 </manifest>

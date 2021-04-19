@@ -15,9 +15,9 @@ public class QuizMainActivity extends AppCompatActivity {
 
     private static final String KEY_INDEX = "index";
     private static final int REQUEST_CODE_CHEAT = 0;
-    private Button mTrue;
-    private Button mFalse;
-    private Button mCheat, mScore;
+    private ImageButton mTrue;
+    private ImageButton mFalse;
+    private ImageButton mCheat, mScore;
     private ImageButton mPrev;
     private ImageButton mNext;
     private TextView questionText;

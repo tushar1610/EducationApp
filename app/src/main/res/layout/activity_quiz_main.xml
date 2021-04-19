@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
+    android:background="@android:color/white"
     android:orientation="vertical"
     tools:context=".QuizMainActivity">
 
@@ -20,17 +21,21 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
-        <Button
+        <ImageButton
             android:id="@+id/true_btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/true_button" />
+            android:src="@drawable/truebutton"
+            android:layout_margin="4dp"
+            android:background="@android:color/white"/>
 
-        <Button
+        <ImageButton
             android:id="@+id/false_btn"
             android:layout_width="wrap_content"
+            android:layout_margin="4dp"
             android:layout_height="wrap_content"
-            android:text="@string/false_button" />
+            android:src="@drawable/falsebutton"
+            android:background="@android:color/white"/>
 
     </LinearLayout>
 
@@ -39,17 +44,21 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
-        <Button
+        <ImageButton
             android:id="@+id/cheat_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/cheat_button"/>
+            android:layout_margin="4dp"
+            android:src="@drawable/cheatbutton"
+            android:background="@android:color/white"/>
 
-        <Button
+        <ImageButton
             android:id="@+id/score_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/score_button"/>
+            android:src="@drawable/scorebutton"
+            android:layout_margin="4dp"
+            android:background="@android:color/white"/>
 
     </LinearLayout>
 
@@ -60,12 +69,14 @@
 
         <ImageButton
             android:id="@+id/prev_btn"
+            android:layout_margin="4dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/arrow_left" />
 
         <ImageButton
             android:id="@+id/next_btn"
+            android:layout_margin="4dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/arrow_right" />
