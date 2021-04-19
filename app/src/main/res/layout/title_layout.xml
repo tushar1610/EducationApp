@@ -8,20 +8,17 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:background="@drawable/chaptergrp">
 
-            <ImageView
-                android:layout_width="50dp"
-                android:layout_height="50dp"
-                android:src="@drawable/ic_grade"/>
             <TextView
                 android:id="@+id/title"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="10dp"
+                android:layout_marginStart="150dp"
                 android:text="this is title"
                 android:textSize="17dp"
                 android:layout_gravity="center_vertical"
-                android:layout_marginLeft="10dp" />
+                android:layout_marginLeft="150dp" />
         </LinearLayout>
 </android.support.v7.widget.CardView>

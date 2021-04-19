@@ -86,7 +86,8 @@ public class MainActivity extends AppCompatActivity {
             dialog.show();
         }
         if (id==R.id.menu_about){
-            Toast.makeText(MainActivity.this,"About Clicked",Toast.LENGTH_SHORT).show();
+            Intent intent = new Intent(MainActivity.this, AboutActivity.class );
+            startActivity(intent);
         }
         if (id==R.id.menu_exit){
             finish();

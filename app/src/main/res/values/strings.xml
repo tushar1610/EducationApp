@@ -17,4 +17,8 @@
     <string name="cheat_button">Cheat!</string>
     <string name="judgement_toast">Cheating is wrong.</string>
     <string name="score_button">Score</string>
+    <string name="about_string">This is an educational application, which helps user learn and tests the capability to remember thinks.
+        This app consists contents about geography of various regions and provides end users various geographical informations.
+        This app consists an integrated quiz system to test the capability of the individual ,who uses the application.
+        This has a clean UI for easy usability for the end users.</string>
 </resources>
