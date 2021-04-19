@@ -1,4 +1,4 @@
-package com.littleit.coding.mybookapp.Model;
+package com.example.android.lerno.Model;
 
 public class Constants {
     public static final String TITLEA = "Chapter_One";

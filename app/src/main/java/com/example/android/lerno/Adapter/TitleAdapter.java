@@ -1,4 +1,4 @@
-package com.littleit.coding.mybookapp.Adapter;
+package com.example.android.lerno.Adapter;
 
 import android.content.Context;
 import android.support.annotation.NonNull;
@@ -9,8 +9,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.littleit.coding.mybookapp.R;
-import com.littleit.coding.mybookapp.Interface.TitleClickListener;
+import com.example.android.lerno.R;
+import com.example.android.lerno.Interface.TitleClickListener;
 
 import java.util.ArrayList;
 

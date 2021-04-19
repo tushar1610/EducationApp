@@ -1,4 +1,4 @@
-package com.littleit.coding.mybookapp;
+package com.example.android.lerno;
 
 import android.content.Intent;
 import android.support.annotation.Nullable;

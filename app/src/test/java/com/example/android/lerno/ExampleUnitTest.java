@@ -1,4 +1,4 @@
-package com.littleit.coding.mybookapp;
+package com.example.android.lerno;
 
 import org.junit.Test;
 

@@ -1,4 +1,4 @@
-package com.littleit.coding.mybookapp;
+package com.example.android.lerno;
 
 import android.content.Context;
 import android.content.DialogInterface;
@@ -13,9 +13,9 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.Toast;
 
-import com.littleit.coding.mybookapp.Adapter.TitleAdapter;
-import com.littleit.coding.mybookapp.Interface.TitleClickListener;
-import com.littleit.coding.mybookapp.Model.Constants;
+import com.example.android.lerno.Adapter.TitleAdapter;
+import com.example.android.lerno.Interface.TitleClickListener;
+import com.example.android.lerno.Model.Constants;
 
 import java.util.ArrayList;
 

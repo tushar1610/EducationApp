@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.littleit.coding.mybookapp">
+    package="com.example.android.lerno">
 
     <application
         android:allowBackup="true"
@@ -9,22 +9,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".CheatActivity"
+        <activity android:name="com.example.android.lerno.CheatActivity"
             android:label="Cheat"
-            android:parentActivityName=".QuizMainActivity">
+            android:parentActivityName="com.example.android.lerno.QuizMainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".QuizMainActivity" />
+                android:value="com.example.android.lerno.QuizMainActivity" />
         </activity>
-        <activity android:name=".QuizMainActivity"
+        <activity android:name="com.example.android.lerno.QuizMainActivity"
             android:label="Quiz"
-            android:parentActivityName=".MainActivity">
+            android:parentActivityName="com.example.android.lerno.MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivity" />
+                android:value="com.example.android.lerno.MainActivity" />
         </activity>
         <activity
-            android:name=".SplashActivity"
+            android:name="com.example.android.lerno.SplashActivity"
             android:theme="@style/AppThemeNoActionbar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -32,8 +32,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".DetailActivity" />
-        <activity android:name=".MainActivity" />
+        <activity android:name="com.example.android.lerno.DetailActivity" />
+        <activity android:name="com.example.android.lerno.MainActivity" />
     </application>
 
 </manifest>

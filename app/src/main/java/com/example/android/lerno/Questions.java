@@ -1,4 +1,4 @@
-package com.littleit.coding.mybookapp;
+package com.example.android.lerno;
 
 public class Questions {
     private int mTextResId;

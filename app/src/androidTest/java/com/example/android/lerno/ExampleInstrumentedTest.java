@@ -1,4 +1,4 @@
-package com.littleit.coding.mybookapp;
+package com.example.android.lerno;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
