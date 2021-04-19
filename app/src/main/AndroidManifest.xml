@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".CheatActivity"
-            android:label="Cheat Answer"
+            android:label="Cheat"
             android:parentActivityName=".QuizMainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
